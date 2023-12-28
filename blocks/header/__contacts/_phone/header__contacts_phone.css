@@ -1,0 +1,20 @@
+.header__contacts_phone {
+    color: #FFF;
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+.header__contacts_phone:hover {
+    opacity: 0.6;
+}
+.header__contacts_phone:focus {
+    outline: none;
+}
+
+.header__contacts_phone:focus-visible {
+    outline: 1px solid var(--outline-color);
+}

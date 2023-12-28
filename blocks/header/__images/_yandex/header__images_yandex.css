@@ -1,0 +1,15 @@
+.header__images_yandex {
+    max-width: 181.149px;
+    min-height: 58.366px;
+    flex-shrink: 0;
+    transition: opacity 0.3s ease;
+}
+.header__images_yandex:hover {
+    opacity: 0.6;
+}
+
+@media (width <= 1250px) {
+    .header__images_yandex {
+        max-width: 130px;
+    }
+}

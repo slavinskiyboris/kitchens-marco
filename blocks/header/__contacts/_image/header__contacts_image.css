@@ -1,0 +1,9 @@
+.header__contacts_image {
+    max-width: 36px;
+    min-height: 36px;
+    flex-shrink: 0;
+    transition: opacity 0.3s ease;
+}
+.header__contacts_image:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,21 @@
+/*FONTS*/
+@import url(../fonts/fonts.css);
+/*STYLES*/
+@import url(../styles/globals.css);
+/*HEADER*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__images/header__images.css);
+@import url(../blocks/header/__adress/header__address.css);
+@import url(../blocks/header/__adress/_span/header__address_span.css);
+@import url(../blocks/header/__adress/_text/header__address_text.css);
+@import url(../blocks/header/__contacts/header__contacts.css);
+@import url(../blocks/header/__contacts/_image/header__contacts_image.css);
+@import url(../blocks/header/__contacts/_phone/header__contacts_phone.css);
+@import url(../blocks/header/__outline/header__outline.css);
+@import url(../blocks/header/__images/_logo/header__images_logo.css);
+@import url(../blocks/header/__images/_yandex/header__images_yandex.css);
+@import url(../blocks/header/__adress/_button/header__address_button.css);
+@import url(../blocks/header/__adress/_button-text/header__address_button-text.css);
+/*PAGE*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/effects/effects.css);

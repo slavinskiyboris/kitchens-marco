@@ -1,0 +1,16 @@
+.header__address {
+    display: flex;
+    gap: 73px;
+    align-items: center;
+}
+
+@media (width <= 1250px) {
+    .header__address {
+        gap: 20px;
+    }
+}
+@media (width < 768px) {
+    .header__address {
+        flex-direction: column;
+    }
+}

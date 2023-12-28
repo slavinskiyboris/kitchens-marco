@@ -1,0 +1,7 @@
+.header__outline:focus {
+    outline: none;
+}
+
+.header__outline:focus-visible {
+    outline: 1px solid var(--outline-color);
+}

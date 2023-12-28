@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    min-height: 125px;
+    background-color: var(--background-color-header);
+    align-items: center;
+}
+@media (width < 1024px) {
+    .header {
+        flex-direction: column;
+    }
+}

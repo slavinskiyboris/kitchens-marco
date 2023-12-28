@@ -1,0 +1,13 @@
+:root {
+    --background-color-page: #FFF;
+    --background-color-header: rgba(0, 43, 69, 0.90);
+    --background-color-effects: #FBF6EF;
+    --outline-color: #FBF6EF;
+
+    /*FONT*/
+    --main-font: 'Open Sans';
+    --title-font: 'Lora';
+
+    --mix-blend-mode: lighten;
+
+}

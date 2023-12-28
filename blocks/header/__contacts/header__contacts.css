@@ -1,0 +1,15 @@
+.header__contacts {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media (width <= 1250px) {
+    .header__contacts {
+        gap: 10px;
+    }
+}
+@media (width < 768px) {
+    .header__contacts {
+        flex-direction: column;
+    }
+}
