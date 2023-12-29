@@ -1,0 +1,5 @@
+.advantages__cards {
+    display: flex;
+    gap: 75px;
+    padding-block-start: 56px;
+}

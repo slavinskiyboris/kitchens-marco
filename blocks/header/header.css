@@ -4,6 +4,8 @@
     min-height: 125px;
     background-color: var(--background-color-header);
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 @media (width < 1024px) {
     .header {

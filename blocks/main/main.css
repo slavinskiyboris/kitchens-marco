@@ -1,10 +1,4 @@
 .main {
-    background: url("../../images/main-background.png") no-repeat center;
-    background-size: cover;
-    max-width: 2560px;
-    min-height: 852px;
     position: relative;
-    top: -125px;
-    left: 0;
     z-index: -1;
 }
