@@ -2,4 +2,7 @@
     max-width: 1085px;
     height: 532px;
     flex-shrink: 0;
+    position: relative;
+    top: -38px;
+    left: 0;
 }

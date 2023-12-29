@@ -1,0 +1,4 @@
+.product__grid_buttons {
+    display: flex;
+    gap: 16px;
+}

@@ -3,4 +3,7 @@
     position: relative;
     top: -125px;
     left: 0;
+    display: flex;
+    gap: 94px;
+    height: 405px;
 }

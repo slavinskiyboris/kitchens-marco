@@ -1,0 +1,7 @@
+.product__grid_item {
+    width: 588px;
+    height: 436px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    /*background-color: #FBF6EF;*/
+}

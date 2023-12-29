@@ -1,0 +1,9 @@
+.product__grid_title {
+    color: #002B45;
+    font-family: var(--title-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-block-end: 20px;
+}

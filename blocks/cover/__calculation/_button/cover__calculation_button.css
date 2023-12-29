@@ -1,6 +1,9 @@
 .cover__calculation_button {
     max-width: 203px;
     height: 58px;
-    justify-content: center;
     z-index: 1;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    justify-content: center;
+
 }
