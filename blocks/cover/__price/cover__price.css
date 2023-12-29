@@ -1,0 +1,7 @@
+.cover__price {
+    display: flex;
+    gap: 31px;
+    align-items: center;
+    padding-block-start: 50px;
+    padding-left: 7.9%;
+}

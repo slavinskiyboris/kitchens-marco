@@ -1,0 +1,5 @@
+.cover__price_image {
+    max-width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+}

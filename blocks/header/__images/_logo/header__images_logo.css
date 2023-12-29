@@ -1,6 +1,6 @@
 .header__images_logo {
     max-width: 177px;
-    min-height: 53.184px;
+    height: 53.184px;
     flex-shrink: 0;
 }
 @media (width <= 1250px) {

@@ -1,0 +1,8 @@
+.cover__price_text {
+    color: #FFF;
+    font-family: var(--main-font);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

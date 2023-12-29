@@ -1,3 +1,5 @@
 .page {
     background-color: var(--background-color-page);
+    z-index: -1;
+    position: relative;
 }
