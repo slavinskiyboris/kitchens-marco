@@ -1,0 +1,19 @@
+.advantages__stick {
+    width: 1003px;
+    height: 1px;
+    position: absolute;
+    background-color: #002B45;
+    top: 120px;
+    left: 400px;
+}
+@media (width > 1920px) {
+    .advantages__stick {
+        display: none;
+    }
+}
+
+@media (width < 1920px) {
+    .advantages__stick {
+        display: none;
+    }
+}

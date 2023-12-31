@@ -1,0 +1,26 @@
+.cover__banner_image {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    z-index: 1;
+    top: 28px;
+    left: 206px;
+}
+
+.cover__banner_image2 {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    z-index: 1;
+    top: 28px;
+    left: 251px;
+}
+
+.cover__banner_image3 {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    z-index: 1;
+    top: 28px;
+    left: 199px;
+}

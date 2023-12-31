@@ -19,6 +19,7 @@
 @import url(../blocks/main/main.css);
 /*COVER*/
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__stick/cover__stick.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__price/cover__price.css);
 @import url(../blocks/cover/__image/cover__image.css);
@@ -29,6 +30,9 @@
 @import url(../blocks/cover/__calculation/_button-text/cover__calculation_button-text.css);
 @import url(../blocks/cover/__calculation/_button/cover__calculation_button.css);
 @import url(../blocks/cover/__calculation/_box/cover__calculation_box.css);
+@import url(../blocks/cover/__banner/cover__banner.css);
+@import url(../blocks/cover/__banner/_text/cover__banner_text.css);
+@import url(../blocks/cover/__banner/_image/cover__banner_image.css);
 /*ADVANTAGES*/
 @import url(../blocks/advantages/advantages.css);
 @import url(../blocks/advantages/__title/advantages__title.css);
@@ -37,19 +41,41 @@
 @import url(../blocks/advantages/__card/advantages__card.css);
 @import url(../blocks/advantages/__cards/advantages__cards.css);
 @import url(../blocks/advantages/__image/advantages__image.css);
+@import url(../blocks/advantages/__stick/advantages__stick.css);
 /*PRODUCT*/
+@import url(../blocks/product/product.css);
 @import url(../blocks/product/__grid/product__grid.css);
 @import url(../blocks/product/__title/product__title.css);
+@import url(../blocks/product/__stick/product__stick.css);
 @import url(../blocks/product/__grid/_text/product__grid_text.css);
 @import url(../blocks/product/__grid/_title/product__grid_title.css);
 @import url(../blocks/product/__grid/_item/product__grid_item.css);
 @import url(../blocks/product/__grid/_price/product__grid_price.css);
+@import url(../blocks/product/__grid/_stick/product__grid_stick.css);
 @import url(../blocks/product/__grid/_about/product__grid_about.css);
 @import url(../blocks/product/__grid/_buttons/product__grid_buttons.css);
 @import url(../blocks/product/__grid/_button-calculation/product__grid_button-calculation.css);
 @import url(../blocks/product/__grid/_button-details/product__grid_button-details.css);
-@import url(../blocks/product/__grid/_button-text/product__grid_button-text.css);
-
+@import url(../blocks/product/__grid/_button-text-calculation/product__grid_button-text-calculation.css);
+@import url(../blocks/product/__grid/_button-text-details/product__grid_button-text-details.css);
+@import url(../blocks/product/__grid-card/product__grid-card.css);
+@import url(../blocks/product/__grid-box/product__grid-box.css);
+@import url(../blocks/product/__grid/_text-main/product__grid_text-main.css);
+@import url(../blocks/product/__grid-switch/_image/product__grid-switch_image.css);
+@import url(../blocks/product/__grid-switch/_link/product__grid-switch_link.css);
+@import url(../blocks/product/__grid-switch/product__grid-switch.css);
+@import url(../blocks/product/__grid-switch/_text/product__grid-switch_text.css);
+@import url(../blocks/product/__grid-switch/_span/product__grid-switch_span.css);
+@import url(../blocks/product/__grid-switch/_button/product__grid-switch_button.css);
+@import url(../blocks/product/__grid-switch/_box/product__grid-switch_box.css);
+/*DROPDOWN*/
+@import url(../blocks/dropdown/dropdown.css);
+@import url(../blocks/dropdown/__box/dropdown__box.css);
+@import url(../blocks/dropdown/__text/dropdown__text.css);
+@import url(../blocks/dropdown/__button/dropdown__button.css);
+@import url(../blocks/dropdown/__button-box/dropdown__button-box.css);
+@import url(../blocks/dropdown/__button-text/dropdown__button-text.css);
+@import url(../blocks/dropdown/__span/dropdown__span.css);
 /*PAGE/SPAN/EFFECTS*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/effects/effects.css);

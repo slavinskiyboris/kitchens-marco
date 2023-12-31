@@ -1,0 +1,11 @@
+.dropdown__button-text {
+    mix-blend-mode: darken;
+
+    color: black;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}

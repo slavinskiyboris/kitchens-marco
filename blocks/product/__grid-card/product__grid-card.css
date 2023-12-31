@@ -1,0 +1,15 @@
+.product__grid-card {
+    background: url("../../../images/grid-kitchen.png") no-repeat top;
+    width: 288px;
+    height: calc(336px + 28px);
+    position: relative;
+    top: 36px;
+    left: 80px;
+    z-index: 1;
+}
+
+@media (width < 880px) {
+    .product__grid-card {
+        display: none;
+    }
+}

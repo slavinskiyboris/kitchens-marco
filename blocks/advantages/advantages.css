@@ -7,3 +7,21 @@
     gap: 94px;
     height: 405px;
 }
+
+@media (width < 1763px) {
+    .advantages {
+        height: 480px;
+    }
+}
+
+@media (width < 1298px) {
+    .advantages {
+        height: 715px;
+    }
+}
+
+@media (width < 381px) {
+    .advantages {
+        height: 815px;
+    }
+}

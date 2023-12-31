@@ -6,3 +6,9 @@
     top: -38px;
     left: 0;
 }
+
+@media (width < 880px) {
+    .advantages__image {
+        display: none;
+    }
+}

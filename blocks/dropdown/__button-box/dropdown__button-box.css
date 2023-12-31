@@ -1,0 +1,11 @@
+.dropdown__button-box {
+    display: flex;
+    gap: 11px;
+    padding-left: calc(82px - 14px);
+}
+
+@media (width < 1024px) {
+    .dropdown__button-box {
+        padding: 0;
+    }
+}

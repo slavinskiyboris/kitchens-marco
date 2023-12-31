@@ -1,6 +1,18 @@
 .product__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     gap: 48px;
-    justify-items: center;
+    padding-block-end: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*@media (width < 1800px) {*/
+/*    .product__grid {*/
+/*        justify-content: center;*/
+/*    }*/
+/*}*/
+
+@media (width <= 880px) {
+    .product__grid {
+        max-width: 759px;
+    }
 }

@@ -1,0 +1,14 @@
+.cover__stick {
+    width: 191px;
+    height: 1px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 376px;
+    left: -66px;
+}
+
+@media (width < 1024px) {
+    .cover__stick {
+        display: none;
+    }
+}

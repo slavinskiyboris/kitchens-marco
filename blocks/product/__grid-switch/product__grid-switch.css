@@ -1,0 +1,10 @@
+.product__grid-switch {
+    max-width: 288px;
+    height: 80px;
+    background-color: #001623;
+    margin-block-start: calc(364px - 80px);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 17px;
+}

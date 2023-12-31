@@ -1,6 +1,38 @@
 .product__grid_button-details {
-    max-width: 161px;
+    width: 161px;
     height: 58px;
     background-color: #002B45;
     border: 1px solid #000;
+    position: relative;
+
+    display: flex;
+    gap: 8px;
+    padding: 18px 32px;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.product__grid_button-details::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #FBF6EF;
+    mix-blend-mode: lighten;
+    transform: scaleX(0);
+    transform-origin: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.product__grid_button-details:hover::before {
+    transform: scaleX(1);
+}
+
+.product__grid_button-details:focus {
+    outline: none;
+}
+
+.product__grid_button-details:focus-visible {
+    outline: 1px solid var(--outline-color);
 }

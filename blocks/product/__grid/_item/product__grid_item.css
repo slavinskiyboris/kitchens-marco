@@ -3,5 +3,13 @@
     height: 436px;
     flex-shrink: 0;
     border: 1px solid #000;
-    /*background-color: #FBF6EF;*/
+    background-color: #FBF6EF;
+    position: relative;
+}
+
+
+@media (width < 600px) {
+    .product__grid_item {
+        max-width: 320px;
+    }
 }

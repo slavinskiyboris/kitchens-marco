@@ -1,0 +1,16 @@
+.product__grid_text-main {
+    color: #002B45;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 133px;
+    padding-block-end: 48px;
+}
+@media (width < 1800px) {
+    .product__grid_text-main {
+        padding-left: 0;
+        text-align: center;
+    }
+}

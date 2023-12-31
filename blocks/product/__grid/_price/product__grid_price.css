@@ -1,5 +1,19 @@
 .product__grid_price {
     display: flex;
     gap: 30px;
-    justify-content: center;
+    padding-left: 133px;
+    padding-block-end: 16px;
+    align-items: center;
+}
+@media (width < 1800px) {
+    .product__grid_price {
+        padding-left: 0;
+        justify-content: center;
+    }
+}
+
+@media (width < 600px) {
+    .product__grid_price {
+        gap: 10px;
+    }
 }

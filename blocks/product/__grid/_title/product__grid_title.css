@@ -6,4 +6,13 @@
     font-weight: 700;
     line-height: normal;
     padding-block-end: 20px;
+    padding-left: 133px;
+    padding-block-start: 56px;
+}
+
+@media (width < 1800px) {
+    .product__grid_title {
+        padding-left: 0;
+        text-align: center;
+    }
 }

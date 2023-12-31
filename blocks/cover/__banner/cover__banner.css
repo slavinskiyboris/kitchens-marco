@@ -1,0 +1,47 @@
+.cover__banner {
+    border-radius: 15px;
+    background: rgba(0, 43, 69, 0.90);
+    backdrop-filter: blur(2px);
+    padding: 18px 32px;
+    position: absolute;
+    top: 179px;
+    left: 547px;
+    z-index: 1;
+}
+.cover__banner:nth-of-type(2) {
+    top: 328px;
+    left: 958px;
+    width: 266px;
+}
+
+.cover__banner:nth-of-type(3) {
+    top: 528px;
+    left: 890px;
+}
+
+@media (width < 1260px) {
+    .cover__banner {
+        top: 179px;
+        left: 60px;
+    }
+    .cover__banner:nth-of-type(2) {
+        top: 163px;
+        left: 394px;
+    }
+    .cover__banner:nth-of-type(3) {
+        top: 589px;
+        left: 435px;
+    }
+}
+
+@media (width <= 768px) {
+    .cover__banner {
+        display: none;
+    }
+    .cover__banner:nth-of-type(2) {
+        display: none;
+    }
+    .cover__banner:nth-of-type(3) {
+        display: none;
+    }
+}

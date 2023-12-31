@@ -1,0 +1,14 @@
+.product__stick {
+    width: 191px;
+    height: 1px;
+    position: absolute;
+    background-color: #002B45;
+    top: 22px;
+    left: -61px;
+}
+
+@media (width < 1024px) {
+    .product__stick {
+        display: none;
+    }
+}

@@ -7,3 +7,9 @@
     line-height: 120%; /* 43.2px */
     padding-block-start: 101px;
 }
+
+@media (width < 880px) {
+    .advantages__title {
+        text-align: center;
+    }
+}

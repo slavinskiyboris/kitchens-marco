@@ -1,6 +1,12 @@
 .advantages__cards {
     display: flex;
-    gap: 75px;
+    gap: 100px;
     padding-block-start: 56px;
     flex-wrap: wrap;
+}
+
+@media (width < 880px) {
+    .advantages__cards {
+        justify-content: center;
+    }
 }

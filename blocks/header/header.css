@@ -1,11 +1,17 @@
 .header {
     display: flex;
-    justify-content: space-around;
-    min-height: 125px;
+    justify-content: space-between;
+    min-height: 126px;
     background-color: var(--background-color-header);
     align-items: center;
     position: relative;
     z-index: 1;
+}
+
+@media (width < 1483px) {
+    .header {
+        justify-content: center;
+    }
 }
 @media (width < 1024px) {
     .header {

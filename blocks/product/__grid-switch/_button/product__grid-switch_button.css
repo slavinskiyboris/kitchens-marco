@@ -1,0 +1,14 @@
+.product__grid-switch_button:first-of-type {
+    background: url("../../../../svg/vector-left.svg") no-repeat center;
+    width: 28px;
+    height: 18.963px;
+    border: none;
+    cursor: pointer;
+}
+.product__grid-switch_button:last-of-type {
+    background: url("../../../../svg/vector-right.svg") no-repeat center;
+    width: 28px;
+    height: 18.963px;
+    border: none;
+    cursor: pointer;
+}

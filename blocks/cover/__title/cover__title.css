@@ -1,10 +1,16 @@
 .cover__title {
     color: #FFF;
     font-family: var(--title-font);
-    font-size: clamp(2rem, 1.7143rem + 1.4286vw, 4rem);
+    font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     padding-block-start: calc(125px + 163px);
     padding-left: 7.9%;
+}
+
+@media (width < 520px) {
+    .cover__title {
+        font-size: clamp(2rem, 1.7143rem + 1.4286vw, 4rem);
+    }
 }

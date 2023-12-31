@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./styles/variables.css" />
 
-<!--    <link rel="icon" href="images/favicon.ico" sizes="any">-->
-<!--    <link rel="icon" href="svg/favicon.svg" type="image/svg+xml">-->
-<!--    <link rel="apple-touch-icon" href="images/favicon.png">-->
+    <link rel="icon" href="./images/favicon.ico" sizes="any">
+    <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./images/favicon.png">
   </head>
 
   <body class="page">
@@ -34,7 +34,26 @@
 
     <main class="main">
       <section class="cover">
-        <h1 class="cover__title">Изготовим роскошную<br>дизайнерскую кухню</h1>
+
+        <div class="cover__banner">
+          <p class="cover__banner_text">Огромный выбор<br>бытовой техники</p>
+          <img src="svg/circle.svg" alt="Кружок" class="cover__banner_image">
+        </div>
+
+        <div class="cover__banner">
+          <p class="cover__banner_text">Изысканный гарнитур<br>любого размера</p>
+          <img src="svg/circle.svg" alt="Кружок" class="cover__banner_image2">
+        </div>
+
+        <div class="cover__banner">
+          <p class="cover__banner_text">Выдающиеся<br>сорта древесины</p>
+          <img src="svg/circle.svg" alt="Кружок" class="cover__banner_image3">
+        </div>
+
+        <div style="position: relative">
+          <div class="cover__stick"></div>
+          <h1 class="cover__title">Изготовим роскошную<br>дизайнерскую кухню</h1>
+        </div>
         <div class="cover__price">
           <img src="svg/wallet.svg" alt="Кошелек" class="cover__price_image">
           <p class="cover__price_text"><span class="span">Цена на 12-24% ниже,</span><br>чем у посредников</p>
@@ -50,7 +69,10 @@
       <section class="advantages">
         <img src="images/kitchen.png" alt="Кухня" class="advantages__image">
         <div class="advantages__div">
-          <h2 class="advantages__title">Наши преимущества</h2>
+          <div style="position: relative">
+            <h2 class="advantages__title">Наши преимущества</h2>
+            <div class="advantages__stick"></div>
+          </div>
           <div class="advantages__cards">
             <div class="advantages__card">
               <img src="svg/kitchenIcon.svg" alt="Иконка кухни" class="advantages__card_image">
@@ -59,7 +81,7 @@
 
             <div class="advantages__card">
               <img src="svg/timingIcon.svg" alt="Иконка часов" class="advantages__card_image">
-              <p class="advantages__card_text"><span class="span">Сжатые сроки</span><br>изготовление кухни от 20 дней</p>
+              <p class="advantages__card_text"><span class="span">Сжатые сроки</span><br>изготовление кухни<br>от 20 дней</p>
             </div>
 
             <div class="advantages__card">
@@ -70,44 +92,274 @@
         </div>
 
       </section>
-
       <section class="product">
-        <h2 class="product__title">Посмотрите наши работы</h2>
+        <div style="position: relative">
+          <div class="product__stick"></div>
+          <h2 class="product__title">Посмотрите наши работы</h2>
+        </div>
+
+        <div class="dropdown__box">
+          <div class="dropdown">
+            <input type="checkbox" id="dropdown-checkbox">
+            <label for="dropdown-checkbox" class="dropbtn">ПЛАНИРОВКА</label>
+            <div class="dropdown-content">
+              <label class="dropdown__text"><input type="checkbox">Прямые<span class="dropdown__span">100</span></label>
+              <label class="dropdown__text"><input type="checkbox">Угловые<span class="dropdown__span">134</span></label>
+              <label class="dropdown__text"><input type="checkbox">С островом<span class="dropdown__span">250</span></label>
+              <label class="dropdown__text"><input type="checkbox">Трёхярусные<span class="dropdown__span">120</span></label>
+              <label class="dropdown__text"><input type="checkbox">П-образные<span class="dropdown__span">170</span></label>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <input type="checkbox" id="dropdownCheckbox2">
+            <label for="dropdownCheckbox2" class="dropbtn">CТИЛЬ КУХНИ</label>
+            <div class="dropdown-content">
+              <label class="dropdown__text"><input type="checkbox">Прямые</label>
+              <label class="dropdown__text"><input type="checkbox">Угловые</label>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <input type="checkbox" id="dropdownCheckbox3">
+            <label for="dropdownCheckbox3" class="dropbtn">ЦВЕТ</label>
+            <div class="dropdown-content">
+              <label class="dropdown__text"><input type="checkbox">Белый</label>
+              <label class="dropdown__text"><input type="checkbox">Синий</label>
+            </div>
+          </div>
+          <div class="dropdown__button-box">
+            <button type="button" class="dropdown__button"><span class="header__address_button-text">Заказать звонок</span></button>
+            <button type="button" class="dropdown__button"><span class="dropdown__button-text">Заказать звонок</span></button>
+          </div>
+
+        </div>
 
         <div class="product__grid">
 
-          <div class="product__grid_item">
+          <div class="product__grid-box">
 
-            <h2 class="product__grid_title">Кухня 097 минимализм</h2>
-            <p class="product__grid_text">Угловая белая кухня со столешницей под бетон.</p>
+            <div class="product__grid-card">
 
-            <div class="product__grid_price">
-              <div>
-                <p class="product__grid_text"><span class="span">Эконом</span></p>
-                <p class="product__grid_text">168 000 р.</p>
+              <div class="product__grid-switch">
+                <div>
+                  <p class="product__grid-switch_text">01&nbsp;<span class="product__grid-switch_span">10</span></p>
+                  <div>
+                    <button type="button" class="product__grid-switch_button"></button>
+                    <button type="button" class="product__grid-switch_button"></button>
+                  </div>
+                </div>
+
+                <div>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                </div>
               </div>
 
-              <div>
-                <p class="product__grid_text"><span class="span">Стандарт</span></p>
-                <p class="product__grid_text">217 000 р.</p>
-              </div>
-
-              <div>
-                <p class="product__grid_text"><span class="span">Премиум</span></p>
-                <p class="product__grid_text">270 000 р.</p>
-              </div>
             </div>
 
-            <p class="product__grid_about"><span class="span">Длина кухни:</span> 4900 мм</p>
+            <div class="product__grid_item">
 
-            <div class="product__grid_buttons">
-              <button type="button" class="product__grid_button-details effects"><span class="product__grid_button-text">Подробнее</span></button>
-              <button type="button" class="product__grid_button-calculation effects"><span class="product__grid_button-text">Расчет стоимости</span></button>
+              <h2 class="product__grid_title">Кухня 097 минимализм</h2>
+              <p class="product__grid_text-main">Угловая белая кухня со столешницей под бетон.</p>
+
+              <div class="product__grid_price">
+                <div>
+                  <p class="product__grid_text"><span class="span">Эконом</span></p>
+                  <p class="product__grid_text">168 000 р.</p>
+                </div>
+                <div class="product__grid_stick"></div>
+                <div>
+                  <p class="product__grid_text"><span class="span">Стандарт</span></p>
+                  <p class="product__grid_text">217 000 р.</p>
+                </div>
+                <div class="product__grid_stick"></div>
+                <div>
+                  <p class="product__grid_text"><span class="span">Премиум</span></p>
+                  <p class="product__grid_text">270 000 р.</p>
+                </div>
+              </div>
+
+              <p class="product__grid_about"><span class="span">Длина кухни:</span> 4900 мм</p>
+
+              <div class="product__grid_buttons">
+                <button type="button" class="product__grid_button-details"><span class="product__grid_button-text-details">Подробнее</span></button>
+                <button type="button" class="product__grid_button-calculation "><span class="product__grid_button-text-calculation">Расчет стоимости</span></button>
+              </div>
+
             </div>
 
           </div>
 
+          <div class="product__grid-box">
+
+            <div class="product__grid-card">
+
+              <div class="product__grid-switch">
+                <div>
+                  <p class="product__grid-switch_text">01&nbsp;<span class="product__grid-switch_span">10</span></p>
+                  <div>
+                    <button type="button" class="product__grid-switch_button"></button>
+                    <button type="button" class="product__grid-switch_button"></button>
+                  </div>
+                </div>
+
+                <div>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="product__grid_item">
+
+              <h2 class="product__grid_title">Кухня 097 минимализм</h2>
+              <p class="product__grid_text-main">Угловая белая кухня со столешницей под бетон.</p>
+
+              <div class="product__grid_price">
+                <div>
+                  <p class="product__grid_text"><span class="span">Эконом</span></p>
+                  <p class="product__grid_text">168 000 р.</p>
+                </div>
+                <div class="product__grid_stick"></div>
+                <div>
+                  <p class="product__grid_text"><span class="span">Стандарт</span></p>
+                  <p class="product__grid_text">217 000 р.</p>
+                </div>
+                <div class="product__grid_stick"></div>
+                <div>
+                  <p class="product__grid_text"><span class="span">Премиум</span></p>
+                  <p class="product__grid_text">270 000 р.</p>
+                </div>
+              </div>
+
+              <p class="product__grid_about"><span class="span">Длина кухни:</span> 4900 мм</p>
+
+              <div class="product__grid_buttons">
+                <button type="button" class="product__grid_button-details"><span class="product__grid_button-text-details">Подробнее</span></button>
+                <button type="button" class="product__grid_button-calculation "><span class="product__grid_button-text-calculation">Расчет стоимости</span></button>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product__grid-box">
+
+            <div class="product__grid-card">
+
+              <div class="product__grid-switch">
+                <div>
+                  <p class="product__grid-switch_text">01&nbsp;<span class="product__grid-switch_span">10</span></p>
+                  <div>
+                    <button type="button" class="product__grid-switch_button"></button>
+                    <button type="button" class="product__grid-switch_button"></button>
+                  </div>
+                </div>
+
+                <div>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="product__grid_item">
+
+              <h2 class="product__grid_title">Кухня 097 минимализм</h2>
+              <p class="product__grid_text-main">Угловая белая кухня со столешницей под бетон.</p>
+
+              <div class="product__grid_price">
+                <div>
+                  <p class="product__grid_text"><span class="span">Эконом</span></p>
+                  <p class="product__grid_text">168 000 р.</p>
+                </div>
+                <div class="product__grid_stick"></div>
+                <div>
+                  <p class="product__grid_text"><span class="span">Стандарт</span></p>
+                  <p class="product__grid_text">217 000 р.</p>
+                </div>
+                <div class="product__grid_stick"></div>
+                <div>
+                  <p class="product__grid_text"><span class="span">Премиум</span></p>
+                  <p class="product__grid_text">270 000 р.</p>
+                </div>
+              </div>
+
+              <p class="product__grid_about"><span class="span">Длина кухни:</span> 4900 мм</p>
+
+              <div class="product__grid_buttons">
+                <button type="button" class="product__grid_button-details"><span class="product__grid_button-text-details">Подробнее</span></button>
+                <button type="button" class="product__grid_button-calculation "><span class="product__grid_button-text-calculation">Расчет стоимости</span></button>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product__grid-box">
+
+            <div class="product__grid-card">
+
+              <div class="product__grid-switch">
+                <div>
+                  <p class="product__grid-switch_text">01&nbsp;<span class="product__grid-switch_span">10</span></p>
+                  <div>
+                    <button type="button" class="product__grid-switch_button"></button>
+                    <button type="button" class="product__grid-switch_button"></button>
+                  </div>
+                </div>
+
+                <div>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                  <a href="#" class="product__grid-switch_link"><img src="images/switch.png" alt="Картинка" class="product__grid-switch_image"></a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="product__grid_item">
+
+              <h2 class="product__grid_title">Кухня 097 минимализм</h2>
+              <p class="product__grid_text-main">Угловая белая кухня со столешницей под бетон.</p>
+
+              <div class="product__grid_price">
+                <div>
+                  <p class="product__grid_text"><span class="span">Эконом</span></p>
+                  <p class="product__grid_text">168 000 р.</p>
+                </div>
+                <div class="product__grid_stick"></div>
+                <div>
+                  <p class="product__grid_text"><span class="span">Стандарт</span></p>
+                  <p class="product__grid_text">217 000 р.</p>
+                </div>
+                <div class="product__grid_stick"></div>
+                <div>
+                  <p class="product__grid_text"><span class="span">Премиум</span></p>
+                  <p class="product__grid_text">270 000 р.</p>
+                </div>
+              </div>
+
+              <p class="product__grid_about"><span class="span">Длина кухни:</span> 4900 мм</p>
+
+              <div class="product__grid_buttons">
+                <button type="button" class="product__grid_button-details"><span class="product__grid_button-text-details">Подробнее</span></button>
+                <button type="button" class="product__grid_button-calculation "><span class="product__grid_button-text-calculation">Расчет стоимости</span></button>
+              </div>
+
+            </div>
+
+          </div>
+
+
         </div>
+
 
 
 
