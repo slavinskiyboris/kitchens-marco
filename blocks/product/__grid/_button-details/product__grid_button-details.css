@@ -18,8 +18,8 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-color: #FBF6EF;
-    mix-blend-mode: lighten;
+    background-color: #001623;
+    mix-blend-mode: darken;
     transform: scaleX(0);
     transform-origin: 0;
     transition: transform 0.5s ease-in-out;
@@ -35,4 +35,10 @@
 
 .product__grid_button-details:focus-visible {
     outline: 1px solid var(--outline-color);
+}
+
+@media (width < 600px) {
+    .product__grid_button-details {
+        padding-left: 18px;
+    }
 }

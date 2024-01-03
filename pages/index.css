@@ -61,7 +61,6 @@
 @import url(../blocks/product/__grid-card/product__grid-card.css);
 @import url(../blocks/product/__grid-box/product__grid-box.css);
 @import url(../blocks/product/__grid/_text-main/product__grid_text-main.css);
-@import url(../blocks/product/__grid-switch/_image/product__grid-switch_image.css);
 @import url(../blocks/product/__grid-switch/_link/product__grid-switch_link.css);
 @import url(../blocks/product/__grid-switch/product__grid-switch.css);
 @import url(../blocks/product/__grid-switch/_text/product__grid-switch_text.css);

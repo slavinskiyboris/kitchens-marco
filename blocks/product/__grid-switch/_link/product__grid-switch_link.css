@@ -1,3 +1,7 @@
-.product__grid-switch_link {
+.product__grid-switch_link:focus {
+    outline: none;
+}
 
+.product__grid-switch_link:focus-visible {
+    outline: 1px solid var(--outline-color);
 }

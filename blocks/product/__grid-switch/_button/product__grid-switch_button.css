@@ -4,6 +4,7 @@
     height: 18.963px;
     border: none;
     cursor: pointer;
+    transition: opacity 0.3s ease;
 }
 .product__grid-switch_button:last-of-type {
     background: url("../../../../svg/vector-right.svg") no-repeat center;
@@ -11,4 +12,17 @@
     height: 18.963px;
     border: none;
     cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.product__grid-switch_button:hover {
+    opacity: 0.6;
+}
+
+.product__grid-switch_button:focus {
+    outline: none;
+}
+
+.product__grid-switch_button:focus-visible {
+    outline: 1px solid var(--outline-color);
 }

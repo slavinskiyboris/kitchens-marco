@@ -1,5 +1,5 @@
 .product__grid_button-text-details {
-    mix-blend-mode: difference;
+    mix-blend-mode: lighten;
 
     color: #FFF;
     font-family: var(--main-font);
